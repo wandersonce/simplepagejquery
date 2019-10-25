@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+   AUTHOR : WANDERSON CASTRO
+   BCIT ID : A01062023
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS AND SCRIPTS-->
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- END -->
+
+
+    <title>Jquery - COMP 1950</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="header_dp">
+            <h1 id="text_hd">WELCOME</h1>
+        </div>
+        <div id="header_aft">
+            <h1>jQuery Plugins </h1>
+        </div>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li class="home"><a href="../index.html"><span>HTML5</span></a></li>
+            <li class="about"><a href="http://bcitcomp.ca/students/eohnishi/" ><span>SELECTORS</span></a></li>
+            <li class="search"><a href="../homework4/page1_grid.html"><span>CSS3 LAYOUT</span></a></li>
+            <li class="photos"><a href="../homework5/responsive.html"><span>RESPONSIVE</span></a></li>
+            <li class="rssfeed"><a href="#"><span>jQuery</span></a></li>
+            <li class="podcasts"><a href="#"><span>SERVER-SIDE</span></a></li>
+            <li class="contact"><a href="#"><span>TEMPLATES</span></a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section>
+            <picture>
+                <img src="images/lightboxlogo.png" alt="lightbox logo">
+            </picture>
+            <div>
+                <p>LightBox is a free plugin that you can use to aplly some jquery to your images.<br>
+                    I used this for demostrate in three images, but you can aplly for how many you want.
+                </p>
+                <p>
+                    How you can see, if you click in some image this image will change the size with a 
+                    animation and you can navegate between the images.
+                </p>
+                <p>I changed somethings like the hover effect before you click on the image to user know what image is
+                    selected.</p>
+                <a class="links" href="https://lokeshdhakar.com/projects/lightbox2/">LIGHTBOX PAGE AND TUTORIAL</a>
+
+            </div>
+            <div>
+                <a href="images/img2.jpg" data-lightbox="roadtrip"><img class="images_resize" src="images/img2.jpg"
+                        alt="IMG 2"></a>
+                <a href="images/img3.jpg" data-lightbox="roadtrip"><img class="images_resize" src="images/img3.jpg"
+                        alt="IMG 3"></a>
+                <a href="images/img4.jpg" data-lightbox="roadtrip"><img class="images_resize" src="images/img4.jpg"
+                        alt="IMG 4"></a>
+            </div>
+        </section>
+        <section>
+            <h2>Slide Out Navigation</h2>
+            <picture id="img_resize2">
+                <img style="width: 400px;" src="images/slideout.png" alt="slideout image">
+            </picture>
+            <p> Like Stefan Matei pointed out, it might be quite cute but we don’t want the user to hover over all
+                options
+                first, in order to see what menu items exit.<br>
+                So, I thought about labeling the menu items and making them stick
+                out, so the user can always “see” what the navigation entails.
+                <br>Being in a horizontal position makes everything
+                readable and when the user hovers over the label, the rest of the item with the icon will slide out.</p>
+            <br>
+            <p>Although this tutorial is related to the previous one, I will start again from scratch – for the readers
+                that are
+                only interested in this new navigation.</p>
+            <p>
+                I also changed the original icons and colors of this menu. So you can customize as you like.
+            </p>
+            <div >
+                <a class="links" href="https://tympanus.net/codrops/2009/12/08/beautiful-slide-out-navigation-revised/">SLIDE OUT
+                    NAVIGATION TUTORIAL</a>
+                <br>
+                <a class="links" href='https://dryicons.com/icon-packs/colorful-stickers-icons-set'> Icon by Dryicons </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h1>WANDERSON CASTRO - COMP1950</h1>
+    </footer>
+    <script src="js/lightbox.js"></script>
+</body>
+
+</html>
